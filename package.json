@@ -5,12 +5,12 @@
   "main": "index.js",
   "homepage": "https://nikolapejchinovski.github.io/devsocial",
   "scripts": {
-    "build": "react-scripts build",
+    "build": "vite build --prefix frontend",
     "start": "node index.js --prefix server",
     "server": "nodemon index.js --prefix server",
     "dev": "concurrently \"nodemon index.js --prefix server\" \"npm run dev --prefix frontend\"",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build --prefix frontend"
   },
   "keywords": [],
   "author": "",
