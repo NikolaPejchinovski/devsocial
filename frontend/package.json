@@ -5,7 +5,6 @@
   "type": "module",
   "homepage": "https://nikolapejchinovski.github.io/devsocial",
   "scripts": {
-    "build": "react-scripts build",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
